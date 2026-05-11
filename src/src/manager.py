@@ -245,11 +245,10 @@ class Manager:
             bool: True if the tenant is on the blacklist, False otherwise.
 
         Example:
-        -------
+        ----
             >>> manager = Manager(Parameters())
             >>> manager.check_tenant_blacklist("Jan Nowak")
             True
-
         """
         return any(
             entry for entry in self.tenants_blacklist if entry.tenant == tenant_name

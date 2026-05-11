@@ -22,13 +22,13 @@ jobs:
       run: uv sync --dev
 
     - name: Run tests
-      run: uv run pytest tests -v || true  # Kontynuuj nawet jeśli testy padną
-
+      run: uv run pytest tests -v || true 
     - name: Run linter
-      run: uv run ruff check src --exit-zero # Sprawdź błędy, ale nie przerywaj
+      run: uv run ruff check src --exit-zero 
 
     - name: Generate Docs
-      run: uvx pdoc src/ -o ./docs-output
+
+      run: uv run --with pdoc pdoc src -o ./docs-output
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
