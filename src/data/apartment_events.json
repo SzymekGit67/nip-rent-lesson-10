@@ -1,0 +1,20 @@
+[
+    {
+        "apartment": "apart-polanka",
+        "date": "2024-06-01",
+        "description": "Wymiana żarówki w salonie",
+        "amount_pln": 10.0
+    }, 
+    {
+        "apartment": "apart-polanka",
+        "date": "2024-06-15",
+        "description": "Uszkodzony zamek w drzwiach pokoju",
+        "amount_pln": 100.0,
+        "tenant": "tenant-1"
+    }, 
+    {
+        "apartment": "apart-polanka",
+        "date": "2024-06-20",
+        "description": "Konieczność sprawdzenia instalacji elektrycznej"
+    }
+]

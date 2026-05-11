@@ -1,0 +1,4 @@
+pydantic
+pylint
+pytest
+pytest-cov
